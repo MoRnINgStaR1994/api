@@ -1,0 +1,22 @@
+GET http://127.0.0.1:8000/plan/get 
+Content-Type: application/json
+Authorization: Token 3b8c4de862653e0274a4aa4d133b8bcfd58fc1dc
+
+
+{ "id": 1 }
+
+
+###
+
+GET http://127.0.0.1:8000/plan/achivment/get 
+Content-Type: application/json
+Authorization: Token 3b8c4de862653e0274a4aa4d133b8bcfd58fc1dc
+
+{ "owner": 1 }
+
+###
+
+POST http://127.0.0.1:8000/auth/login
+Content-Type: application/json
+
+{ "username": "adam", "password": "Pass1234!" }
